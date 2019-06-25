@@ -1,0 +1,20 @@
+{
+  "name": "stencil-babylon-test",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@stencil/core": "^1.0.7",
+    "@stencil/router": "^1.0.1",
+    "babylonjs": "^4.0.3",
+    "babylonjs-loaders": "^4.0.3",
+    "pepjs": "^0.5.2"
+  },
+  "license": "MIT"
+}
